@@ -9,6 +9,7 @@ const references = {
   ':arrows_clockwise:': '🔃',
   ':package:': '🚑',
   ':ambulance:': '📦',
+  ':point_up:': '👆',
 };
 
 const re = new RegExp(Object.keys(references).join('|'), 'gi');
