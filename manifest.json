@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "GitHub Disruptive Emoiji Pull Request Enhancer",
+  "name": "GitHub Disruptive Emoji Pull Request Enhancer",
   "description": "Ehance Github.com by replacing string emoji with actual utf-8 emoji characater",
   "version": "0.0.2",
   "icons": {
