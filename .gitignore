@@ -1,5 +1,7 @@
 dist/
 *.pem
+*.zip
+*.crx
 
 *.DS_Store
 ._*
