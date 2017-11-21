@@ -2,6 +2,8 @@
   "manifest_version": 2,
   "name": "GitHub Disruptive Emoji Pull Request Enhancer",
   "description": "Ehance Github.com by replacing string emoji with actual utf-8 emoji characater",
+  "author": "Felix Yadomi",
+  "short_name": "GHDEPRE",
   "version": "0.0.2",
   "icons": {
     "16": "assets/icon-16.png",
