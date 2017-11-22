@@ -8,7 +8,8 @@ Installation
 
 ### With the crx
 
-Drag the `extension.crx` file in the `chrome://extensions` page.
+1. Download latest `.crx` on the [release page](https://github.com/yadomi/github-disruptive-emoji-pull-request-enhancer/releases/tag/v0.1.0)
+2. Drag the `.crx` file in the `chrome://extensions` page.
 
 ### From source
 
