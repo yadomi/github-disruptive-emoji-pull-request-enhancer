@@ -20,16 +20,8 @@ const replaceInTitle = () => {
   document.title = replace(title);
 };
 
-const replaceInPullRequestTitle = () => {
-  const node = document.querySelector('.js-issue-title');
-  if (node) {
-    const title = node.innerText;
-    node.innerText = replace(title);
-  }
-};
-
-const replaceInPullRequestsList = () => {
-  const nodes = [...document.querySelectorAll('.js-issue-row .js-navigation-open')];
+const replaceInNodeList = selector => {
+  const nodes = document.querySelectorAll(selector);
   if (nodes.length) {
     for (node of nodes) {
       const title = node.innerText;
@@ -40,8 +32,9 @@ const replaceInPullRequestsList = () => {
 
 const replaceEverywhere = () => {
   replaceInTitle();
-  replaceInPullRequestTitle();
-  replaceInPullRequestsList();
+  replaceInNodeList('.js-issue-title');
+  replaceInNodeList('.js-issue-row .js-navigation-open');
+  replaceInNodeList('.commit-desc pre');
 };
 
 document.addEventListener('DOMContentLoaded', function() {
