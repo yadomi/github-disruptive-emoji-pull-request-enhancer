@@ -6,7 +6,11 @@
 GitHub Disruptive Emoji Pull Request Enhancer
 ===
 
+<img src="assets/icon-128.png" width="128" height="128" align="right" hspace="12" />
+
 Simple yet powerful Chrome extension that replace commonly used emoji on Github.com with actual utf-8 characater in pull request title.
+
+Also works on issues title and release page.
 
 Installation
 ---
