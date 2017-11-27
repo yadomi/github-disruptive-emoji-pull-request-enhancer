@@ -51,6 +51,7 @@ const references = {
   ':busts_in_silhouette:': '👥',
   ':children_crossing:': '🚸',
   ':point_up:': '👆',
+  ':arrows_clockwise:': '🔃',
 };
 
 const re = new RegExp(Object.keys(references).join('|'), 'gi');
